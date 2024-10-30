@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="blog-detail-section">
+    <h2>{{ blog.titulo }}</h2>
+    <h4>{{ blog.subtitulo }}</h4>
+    <p>{{ blog.fecha }}</p>
+    <p>{{ blog.cuerpo }}</p>
+    {% if blog.imagen %}
+        <img src="{{ blog.imagen.url }}" alt="Imagen de {{ blog.titulo }}">
+    {% endif %}
+</div>
+{% endblock %}
