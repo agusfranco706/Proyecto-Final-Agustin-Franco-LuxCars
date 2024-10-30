@@ -6,8 +6,8 @@ LuxCars es una aplicación web diseñada para la compra y venta de vehículos de
 
 ## Requisitos Previos
 
-- Python 3.8+
-- Django 4.x
+- Python 3.12.7
+- Django 5.1.2
 - Base de datos SQLite (por defecto)
 
 ## Instalación y Configuración
